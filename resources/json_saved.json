@@ -1,0 +1,23 @@
+{
+   "array": [
+      {},
+      "Тємка",
+      12,
+      13,
+      14.880000,
+      []
+   ],
+   "string": "hihi",
+   "int": 12,
+   "float": 12.300000,
+   "boolean": true,
+   "boolean_false": false,
+   "some_new_data": {},
+   "object": {
+      "key1": {},
+      "key2": "some slurs here"
+   },
+   "null": null,
+   "Adachi say": "TRUE!",
+   "Адачі каже": "ЦЕ ТАК!"
+}

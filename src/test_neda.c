@@ -1,10 +1,11 @@
+#define _POSIX_C_SOURCE 199309L
+
 #include <stdio.h>
 #include <time.h>
 #include <assert.h>
 
-#define NDEBUG
 #define NEDA_STATIC
-#define NEDA_FORCE_INLINE
+#define NDEBUG
 
 #define PRINT_TESTS 1
 #define MEASURE_TIME 1
@@ -49,6 +50,10 @@ int main(void)
 #if MEASURE_TIME != 0 && defined(__GNUC__)
   clock_gettime(CLOCK_MONOTONIC, &tests_begin_time);
 #endif
+
+  (void)neda_float__set_move_function;
+  (void)neda_float__set_swap_function;
+  (void)neda_float__memset;
 
   /* neda_float__reserve() test: */
   {

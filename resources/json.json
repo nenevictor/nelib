@@ -1,0 +1,21 @@
+{
+    "array": [
+        {},
+        "Тємка",
+        12,
+        13,
+        14.88,
+        []
+    ],
+    "string": "hihi",
+    "int": 12,
+    "float": 12.3,
+    "boolean": true,
+    "boolean_false": false,
+    "some_new_data": {},
+    "object": {
+        "key1": {},
+        "key2": "some slurs here"
+    },
+    "null": null
+}
